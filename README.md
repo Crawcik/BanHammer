@@ -4,7 +4,7 @@ SCP:SL plugin. Ban Hammer give you ability to kick people you hurt
 ### Author: Crawcik
 Powered by: Smod2
 
-![](https://img.shields.io/github/release/Crawcik/SL-EventPack) ![](https://img.shields.io/github/license/Crawcik/SL-EventPack)
+![](https://img.shields.io/github/release/Crawcik/BanHammer) ![](https://img.shields.io/github/license/Crawcik/BanHammer)
 
 ------------
 #### Using:
