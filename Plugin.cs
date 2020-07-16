@@ -14,7 +14,7 @@ namespace BanHammer
         id = "banhammer",
         name = "Ban Hammer",
         SmodMajor = 3,
-        SmodMinor = 7,
+        SmodMinor = 8,
         SmodRevision = 0,
         version = "1.1"
         )]
@@ -41,7 +41,7 @@ namespace BanHammer
 
         public override void OnEnable()
         {
-            acceptableRanks = this.GetConfigList("banhammer_allowed_ranks");
+            acceptableRanks = this.ConfigManager.Config.GetListValue("banhammer_allowed_ranks", new string[] { });
             this.AddEventHandler(typeof(IEventHandlerPlayerHurt), this, Priority.Low);
         }
 
